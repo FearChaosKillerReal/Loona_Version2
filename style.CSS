@@ -1,0 +1,43 @@
+body {
+  background-color: #fff3e3;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 8px;
+}
+
+.Happy_Birthday {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3,
+header,
+.ParagraphMessage {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+  max-width: 100%;
+}
+
+.Animation {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 1376px;
+  height: auto;
+  aspect-ratio: 1376 / 712;
+}
+
+@media (max-width: 768px) {
+  .Animation {
+    width: 100%;
+  }
+  img {
+    width: 90%;
+  }
+}
