@@ -16,10 +16,18 @@ header,
   text-align: center;
 }
 
-img {
+.BirthdayBottom {
   display: block;
   margin: 0 auto;
-  width: 60%;
+  width: 25%;
+  height: auto;
+  max-width: 100%;
+}
+
+.Birthday {
+  display: block;
+  margin: 0 auto;
+  width: 45%;
   height: auto;
   max-width: 100%;
 }
@@ -37,7 +45,7 @@ img {
   .Animation {
     width: 100%;
   }
-  img {
+  .BirthdayBottom {
     width: 90%;
   }
 }
